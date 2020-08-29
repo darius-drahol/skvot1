@@ -1,0 +1,48 @@
+
+    body {
+        width: 600px;
+        margin: 0 auto;
+        background-color: #b88fcc;
+        font-family: 'EB Garamond', serif;
+     }
+
+     h1{
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        letter-spacing: 2px;
+     }
+
+     figure {
+        display: block;
+        margin: 0 auto;
+    }
+
+    blockquote {
+       color: white;
+        font-family: 'EB Garamond', serif;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    figcaption {
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .demo {
+        padding-bottom:20px; /*отступ снизу*/
+        width:100%; /*указываем общую ширину блока с колонками*/
+        text-align:justify; /*выравнивание текста внутри колонок*/
+        column-count: 3; /*количество колонок, на которое хотим разбить текст*/
+        -moz-column-count: 3; /*для мозилы*/
+        -webkit-column-count: 3; /*для webkit браузеров*/
+        column-gap: 40px; /*отступ между колонками*/
+        -moz-column-gap: 40px;
+        -webkit-column-gap: 40px;
+        column-rule: 1px solid #000; /*если требуется по дизайну, разделяем колонки линией*/
+        -moz-column-rule: 1px solid #000;
+        -webkit-column-rule: 1px solid #000;
+        }
